@@ -3,9 +3,7 @@
     "baseUrl": "./src",
     "paths": {
       "@shared": ["../../shared"],
-      "@shared/*": ["../../shared/*"],
-      "react": ["../node_modules/react/", "../node_modules/@types/react/"],
-      "react/*": ["../node_modules/react/*", "../node_modules/@types/react/*"]
+      "@shared/*": ["../../shared/*"]
     }
   }
 }
