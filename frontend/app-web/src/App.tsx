@@ -1,5 +1,6 @@
+import { Hello } from '@shared'
 import React from 'react';
-import { Hello } from '../../shared'
+// import { Hello } from '../../shared'
 import './App.css';
 
 function App() {
