@@ -14,7 +14,8 @@ module.exports = {
         baseUrl: "./src",
         // tsConfigPath should point to the file where "baseUrl" and "paths" are specified
         tsConfigPath: "./tsconfig.extends.json",
-        unsafeAllowModulesOutsideOfSrc: true
+        unsafeAllowModulesOutsideOfSrc: true,
+        // debug: true
       }
     }
   ],

@@ -1,0 +1,16 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "web:test": "yarn workspace @app/web test",
+    "web:start": "yarn workspace @app/web start",
+    "web:build": "yarn workspace @app/web build"
+  },
+  "workspaces": {
+    "packages": [
+      "app-web",
+      "shared"
+    ]
+  }
+}
